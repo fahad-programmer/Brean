@@ -44,16 +44,15 @@ class Viper:
             if 'https' in link.get('href'):
                 self.waiting_urls.append(link.get('href'))
             else:
-                self.waiting_urls.append(f"{self.current_url}//{link.get('href')}")
+                self.waiting_urls.append(f"{self.current_url}{link.get('href')}")
         print(self.waiting_urls)
 
     def __repr__(self) -> str:
         return f"The title is {title} with meta description is {meta_description} \n with the {keyword}"
+            
 
 
-
-
-main_obj = Viper("https://www.merriam-webster.com/dictionary/real")
+main_obj = Viper("google.com")
 print(main_obj)
 
 
