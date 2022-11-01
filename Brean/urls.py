@@ -20,5 +20,6 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('Search.urls'))
+    path('', include('Search.urls')),
+    path('crawler/', include('Crawler.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

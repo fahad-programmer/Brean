@@ -1,7 +1,7 @@
 from django.urls import path
-from .crawler import Viper
+from .views import Viper
 
 
 urlpatterns = [
-    path('/crawler', Viper.as_view())
+    path('viper', Viper.as_view())
 ]
