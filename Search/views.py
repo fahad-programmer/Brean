@@ -1,7 +1,7 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.http import request
 
-from .form import form
+
 
 # Create your views here.
 def Home(request):
