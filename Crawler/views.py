@@ -6,12 +6,19 @@ from .models import WebPages
 from django.views.generic import ListView
 import logging
 
+
 #Logging basic file configuration
 logging.basicConfig(filename='app.log', filemode='a', format="%(process)d-%(levelname)s-%(message)s")
 
+
+
+
 class Viper(ListView):
 
-    current_url = "https://www.tradingview.com"
+    #Header for the request module to keep us from blocking from the sites
+
+    current_url = 'https://archive.org/web/'
+    
     waiting_urls = []
 
     def __init__(self) -> None:
@@ -49,6 +56,8 @@ class Viper(ListView):
         except Exception as e:
             logging.error(f"Error in finding the data on the web page {self.current_url}")
 
+        self.getting_links()
+
     def add_to_database(self) -> None:
         try:
             main_obj = WebPages(title=title, meta_description=meta_description, keywords=keyword, url=self.current_url)
@@ -65,25 +74,25 @@ class Viper(ListView):
                 else:
                     self.waiting_urls.append(f"{self.current_url}{link.get('href')}")
         except Exception as e:
-            pass
-        
+            pass      
 
+
+        
     def queue_manager(self) -> None:
         #changing the current url
-        self.current_url = self.waiting_urls[random.choice(range(2, 5))]
+        #chossing different urls to crawl from the list
+        self.current_url = self.waiting_urls[random.choice(range(2, len(self.waiting_urls)))]
         #removing the element from the list
         self.waiting_urls.remove(self.current_url)
 
     def engine(self) -> None:
         #The main engine method that will start the crawler
         while True:
+            print(self.current_url)
             self.parser()
             self.add_to_database()
-            self.getting_links()
             self.queue_manager()
             
-
-
 
     def __repr__(self) -> str:
         return f"The title is {title} with meta description is {meta_description} \n with the {keyword}"
@@ -95,4 +104,4 @@ class Viper(ListView):
 
 
 
-# Create your views here.
+

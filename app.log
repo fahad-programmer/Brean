@@ -2447,3 +2447,468 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.tradingview.c
 12368-ERROR-Error in finding the data on the web page https://news.yahoo.com/
 >>>>>>> f9f3d4e98fdf3f66110a1f190d8e1174b34dca8b
 10452-INFO-E:\Side Projects\Brean\Search\views.py changed, reloading.
+11284-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+10504-WARNING-Not Found: /favicon.ico
+10504-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+12280-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connection.py", line 424, in connect
+    tls_in_tls=tls_in_tls,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='sucuri.net', port=443): Max retries exceeded with url: /website-security-platform/help-now/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 86, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 28, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='sucuri.net', port=443): Max retries exceeded with url: /website-security-platform/help-now/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)')))
+12280-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+6956-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+12284-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 288, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: The site you are trying to access contains content that is&nbsp;prohibited for viewership in Pakistan.</span></div></body></html>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 288, in _read_status
+    raise BadStatusLine(line)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', BadStatusLine('The site you are trying to access contains content that is&nbsp;prohibited for viewership in Pakistan.</span></div></body></html>\r\n'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 86, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 28, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', BadStatusLine('The site you are trying to access contains content that is&nbsp;prohibited for viewership in Pakistan.</span></div></body></html>\r\n'))
+12284-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+7724-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+13476-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 89, in engine
+    self.queue_manager()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 79, in queue_manager
+    self.current_url = self.waiting_urls[random.choice(range(2, 5))]
+IndexError: list index out of range
+13476-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+12912-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 89, in engine
+    self.queue_manager()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 79, in queue_manager
+    self.current_url = self.waiting_urls[random.choice(range(2, 5))]
+IndexError: list index out of range
+12912-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+12728-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 89, in engine
+    self.queue_manager()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 79, in queue_manager
+    self.current_url = self.waiting_urls[random.choice(range(2, 3))]
+IndexError: list index out of range
+12728-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+6368-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 90, in engine
+    self.queue_manager()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 80, in queue_manager
+    self.current_url = self.waiting_urls[random.choice(range(2, 3))]
+IndexError: list index out of range
+6368-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+12972-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 90, in engine
+    self.queue_manager()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 80, in queue_manager
+    self.current_url = self.waiting_urls[random.choice(range(2, 3))]
+IndexError: list index out of range
+12972-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+12992-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+5240-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\models.py", line 434, in prepare_url
+    scheme, auth, host, port, path, query, fragment = parse_url(url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\url.py", line 397, in parse_url
+    return six.raise_from(LocationParseError(source_url), None)
+  File "<string>", line 3, in raise_from
+urllib3.exceptions.LocationParseError: Failed to parse: https://stackoverflow.comjavascript:void(0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 87, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 28, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 496, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\models.py", line 436, in prepare_url
+    raise InvalidURL(*e.args)
+requests.exceptions.InvalidURL: Failed to parse: https://stackoverflow.comjavascript:void(0)
+5240-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\models.py", line 434, in prepare_url
+    scheme, auth, host, port, path, query, fragment = parse_url(url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\url.py", line 397, in parse_url
+    return six.raise_from(LocationParseError(source_url), None)
+  File "<string>", line 3, in raise_from
+urllib3.exceptions.LocationParseError: Failed to parse: https://stackoverflow.comjavascript:void(0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 87, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 28, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 496, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\models.py", line 436, in prepare_url
+    raise InvalidURL(*e.args)
+requests.exceptions.InvalidURL: Failed to parse: https://stackoverflow.comjavascript:void(0)
+5240-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+11824-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 24, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 87, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 28, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+4564-WARNING-Not Found: /favicon.ico
+4564-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+7736-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+11500-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+11700-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+6024-WARNING-Not Found: /favicon.ico
+6024-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 25, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 103, in engine
+    self.threaded_process()
+TypeError: threaded_process() missing 1 required positional argument: 'urls_list'
+6024-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+9084-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+5476-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 25, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 93, in engine
+    self.parser()
+TypeError: parser() missing 1 required positional argument: 'url'
+5476-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+5996-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+6744-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+5356-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+8616-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+5384-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000224E0C86EC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.coinglass.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000224E0C86EC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 25, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 92, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 29, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.coinglass.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000224E0C86EC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+5384-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+3748-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+6024-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
