@@ -13,8 +13,8 @@ logging.basicConfig(filename='app.log', filemode='a',
 
 
 class Viper(ListView):
-
     current_url = "https://www.bbc.com"
+
     waiting_urls = []
     crawled_urls = []
 
@@ -40,6 +40,8 @@ class Viper(ListView):
         except Exception as e:
             logging.error(
                 f"Error in finding the data on the web page {self.current_url}")
+
+        self.getting_links()
 
     def add_to_database(self) -> None:
         try:
@@ -75,24 +77,25 @@ class Viper(ListView):
         except Exception as e:
             pass
 
+
+        
     def queue_manager(self) -> None:
         # Adding crawled url into the cralwed list
         self.crawled_urls.append(self.current_url)
         # changing the current url
-        self.current_url = self.waiting_urls[random.choice(range(0, 5))]
+        self.current_url = self.waiting_urls[random.choice(range(0, len(self.waiting_urls)))]
         # removing the element from the list
+
         self.waiting_urls.remove(self.current_url)
 
     def engine(self) -> None:
         # The main engine method that will start the crawler
         while True:
+            print(self.current_url)
             self.parser()
             self.add_to_database()
-            self.getting_links()
             self.queue_manager()
 
     def __repr__(self) -> str:
         return f"The title is {title} with meta description is {meta_description} \n with the {keyword}"
 
-
-# Create your views here.
