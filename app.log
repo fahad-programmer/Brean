@@ -6159,3 +6159,14 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.coinglass.com
 3748-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
 6024-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
 >>>>>>> c1e2b08f870acc87e10296ee8529cdd7fde0d104
+12060-WARNING-Not Found: /search
+12060-INFO-E:\Django\Brean\Search\views.py changed, reloading.
+5652-INFO-E:\Django\Brean\Search\views.py changed, reloading.
+6372-INFO-E:\Django\Brean\Search\views.py changed, reloading.
+12328-INFO-E:\Django\Brean\Search\views.py changed, reloading.
+6852-INFO-E:\Django\Brean\Search\views.py changed, reloading.
+14280-INFO-E:\Django\Brean\Search\views.py changed, reloading.
+11224-INFO-E:\Django\Brean\Search\urls.py changed, reloading.
+9088-INFO-E:\Django\Brean\Search\urls.py changed, reloading.
+13340-INFO-E:\Django\Brean\Search\urls.py changed, reloading.
+10768-INFO-E:\Django\Brean\Search\urls.py changed, reloading.
