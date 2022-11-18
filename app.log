@@ -2447,3 +2447,1060 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.tradingview.c
 12368-ERROR-Error in finding the data on the web page https://news.yahoo.com/
 >>>>>>> f9f3d4e98fdf3f66110a1f190d8e1174b34dca8b
 10452-INFO-E:\Side Projects\Brean\Search\views.py changed, reloading.
+9992-WARNING-Not Found: /favicon.ico
+9992-WARNING-Not Found: /viper
+8788-ERROR-Error in finding the data on the web page https://www.facebook.com
+8788-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Django\Brean\Crawler\views.py", line 21, in __init__
+    self.engine()
+  File "E:\Django\Brean\Crawler\views.py", line 88, in engine
+    if title == None:
+UnboundLocalError: local variable 'title' referenced before assignment
+8788-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+4320-ERROR-Error in finding the data on the web page https://www.facebook.com
+4320-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Django\Brean\Crawler\views.py", line 21, in __init__
+    self.engine()
+  File "E:\Django\Brean\Crawler\views.py", line 88, in engine
+    print(title)
+UnboundLocalError: local variable 'title' referenced before assignment
+4320-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+6776-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+11608-ERROR-Error in finding the data on the web page https://www.facebook.com
+11608-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Django\Brean\Crawler\views.py", line 21, in __init__
+    self.engine()
+  File "E:\Django\Brean\Crawler\views.py", line 88, in engine
+    print(title)
+NameError: name 'title' is not defined
+11608-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+9692-ERROR-Error in finding the data on the web page https://www.facebook.com
+9692-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Django\Brean\Crawler\views.py", line 21, in __init__
+    self.engine()
+  File "E:\Django\Brean\Crawler\views.py", line 88, in engine
+    if not title:
+NameError: name 'title' is not defined
+9692-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+3740-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+9440-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+6344-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+7552-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+6572-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+3808-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+4672-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+6336-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+940-ERROR-Error in finding the data on the web page https://www.facebook.com
+832-ERROR-Error in finding the data on the web page https://www.facebook.com
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/pages/create/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://ps-af.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/recover/initiate/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://pa-in.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://fa-ir.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://en-gb.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://ar-ar.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://hi-in.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://es-la.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://gu-in.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/reg/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://de-de.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/lite/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/login/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/watch/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://bn-in.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://pay.facebook.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.oculus.com/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/marketplace/
+832-ERROR-Error occured while putting the values in the database
+832-ERROR-Error in finding the data on the web page https://www.facebook.com/games/
+832-ERROR-Error occured while putting the values in the database
+9652-ERROR-Error occured while putting the values in the database
+9652-ERROR-Error occured while putting the values in the database
+9652-ERROR-Error occured while putting the values in the database
+9652-ERROR-Error occured while putting the values in the database
+9652-ERROR-Error in finding the data on the web page https://academy.binance.com/en/learn-and-earn
+9652-ERROR-Error occured while putting the values in the database
+9652-ERROR-Error in finding the data on the web page https://academy.binance.com/en
+9652-ERROR-Error occured while putting the values in the database
+10192-ERROR-Error occured while putting the values in the database
+10192-ERROR-Error occured while putting the values in the database
+10192-ERROR-Error occured while putting the values in the database
+10192-ERROR-Error in finding the data on the web page https://www.binance.charity
+10192-ERROR-Error occured while putting the values in the database
+10192-ERROR-Error in finding the data on the web page https://cloud.binance.com/
+10192-ERROR-Error occured while putting the values in the database
+10192-ERROR-Error in finding the data on the web page https://academy.binance.com/en/learn-and-earn
+10192-ERROR-Error occured while putting the values in the database
+10192-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://academy.binance.com/en/learn-and-earn
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://cloud.binance.com/
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://academy.binance.com/en
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://www.binance.charity
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://www.bnbchain.world
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://research.binance.com/en
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://launchpad.binance.com/en
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error in finding the data on the web page https://www.binance.com/en/binance-api
+10544-ERROR-Error occured while putting the values in the database
+10544-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://mail.yahoo.com/
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://news.yahoo.com/
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://shopping.yahoo.com/
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://www.yahoo.com/plus
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://login.yahoo.com/
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://shopping.yahoo.com/sales/subscription
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://news.yahoo.com/pfizer-rsv-vaccine-pregnant-women-protects-severe-illness-195508090.html
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://sports.yahoo.com/michigan-state-suspends-4-more-players-in-fallout-of-incident-in-michigan-stadium-tunnel-222327329.html
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://www.yahoo.com/everything/
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://www.yahoo.com/entertainment/christina-applegate-ms-diagnosis-cant-walk-without-cane-gained-40-pounds-213801672.html
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error in finding the data on the web page https://www.yahoo.com/entertainment/movember-spokesman-john-oates-on-why-he-shaved-his-stache-i-just-looked-at-myself-in-the-mirror-and-it-had-to-go-172028006.html
+5476-ERROR-Error occured while putting the values in the database
+5476-ERROR-Error occured while putting the values in the database
+936-WARNING-Not Found: /viper/crawler
+936-WARNING-Not Found: /favicon.ico
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://mail.yahoo.com/
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://news.yahoo.com/
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://shopping.yahoo.com/
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://login.yahoo.com/
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://www.yahoo.com/plus
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://www.yahoo.com/entertainment/aaron-carter-dies-203011259.html
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://news.yahoo.com/powerball-jackpot-hit-1-9-080705491.html
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error occured while putting the values in the database
+936-ERROR-Error in finding the data on the web page https://sports.yahoo.com/no-4-clemson-gets-exposed-in-35-14-blowout-loss-at-notre-dame-024534999.html
+936-ERROR-Error occured while putting the values in the database
+15292-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://login.yahoo.com/
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://mail.yahoo.com/
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://news.yahoo.com/
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://shopping.yahoo.com/
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://news.yahoo.com/win-battle-congress-four-scenarios-133111571.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/entertainment/comedian-kathy-griffin-suspended-twitter-060806026.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/everything/
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/plus
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/mattress-mack-bettor-who-called-astros-over-phillies-get-massive-wins-on-world-series-135029480.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://shopping.yahoo.com/sales/subscription
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://finance.yahoo.com/news/twitter-reportedly-asks-some-laid-off-workers-to-return-233438794.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/emily-ratajkowski-dances-divorce-stepfather-applications-173940894.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/xfinity-champion-ty-gibbs-to-miss-nascar-cup-finale-due-to-family-emergency-184612594.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://finance.yahoo.com/news/stock-market-news-live-updates-november-7-2022-110101325.html
+11484-ERROR-Error occured while putting the values in the database
+11484-WARNING-Not Found: /favicon.ico
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/patrick-mahomes-eventually-makes-enough-plays-for-chiefs-to-save-a-win-over-titans-045145479.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/sports/m/225ab47c-876a-354f-adcc-c9a89a759439/pair-of-arkansas-defensive.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/amazon-canada-tools-sale-154151094.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/5-jean-trends-going-see-205915153.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://autos.yahoo.com/ford-dealers-begin-contest-model-131800978.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/after-further-review-clemson-alabama-both-out-of-playoff-picture-and-does-anyone-play-defense-141233619.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/sports/m/225ab47c-876a-354f-adcc-c9a89a759439/pair-of-arkansas-defensive.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/tom-brady-has-vintage-moment-driving-buccaneers-for-game-winning-td-to-beat-the-rams-003431523.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://news.yahoo.com/ukraine-rebuilds-navy-with-combat-boats-from-us-aid-package-091251414.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/fantasy-football-early-waiver-wire-pickups-for-week-10-220450830.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/perfect-pancakes-waffles-every-time-214353578.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/68-predictions-for-the-new-mens-college-basketball-season-150246829.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/jameela-jamil-heroin-chic-eating-disorders-body-trend-181036280.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/8-stylish-jackets-coats-sale-183441171.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/ap-top-25-georgia-remains-at-no-1-alabama-clemson-both-have-big-falls-191449250.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/aaron-rodgers-throws-2-end-zone-interceptions-on-green-bays-first-2-drives-vs-lions-193804778.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/1-sweater-going-see-everywhere-191151541.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/new-look-at-duke-same-kentucky-star-among-10-betting-angles-for-college-hoops-season-134822912.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/referee-interferes-with-vikings-defender-on-wild-washington-touchdown-pass-to-curtis-samuel-203230621.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/gloria-estefan-daughter-hesitation-share-sexuality-185135704.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/week-9-sunday-night-recap-chiefs-survive-titans-in-ot-jets-shock-bills-why-green-bay-shouldve-traded-aaron-rodgers-last-offseason-075348062.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/5-eyeshadow-sticks-buy-target-172659343.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/entertainment/harry-styles-postponement-los-angeles-shows-illness-172523335.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/skateboarder-naiomi-glasses-seventh-generation-140028036.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/m-beauty-editor-11-best-184327739.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/8-editor-approved-luxury-fragrances-173436640.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/baker-mayfield-replaces-ineffective-pj-walker-and-the-panthers-still-dont-know-who-their-starting-qb-is-005414189.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://news.yahoo.com/heres-happened-rocked-sexy-monokini-140015095.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://www.yahoo.com/entertainment/brittany-mahomes-goes-only-bra-181702332.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://finance.yahoo.com/news/stock-market-week-ahead-october-cpi-inflation-midterm-election-180006141.html
+11484-ERROR-Error occured while putting the values in the database
+11484-ERROR-Error in finding the data on the web page https://sports.yahoo.com/as-odell-beckham-jr-sweepstakes-heat-up-one-key-suitor-is-losing-steam-the-rams-043212372.html
+11484-ERROR-Error occured while putting the values in the database
+11484-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+6680-ERROR-Error occured while putting the values in the database
+6680-ERROR-Error occured while putting the values in the database
+6680-ERROR-Error occured while putting the values in the database
+5732-ERROR-Error occured while putting the values in the database
+5732-ERROR-Error occured while putting the values in the database
+5732-ERROR-Error in finding the data on the web page https://login.yahoo.com/
+5732-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://mail.yahoo.com/
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://login.yahoo.com/
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://shopping.yahoo.com/
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://shopping.yahoo.com/sales/subscription
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://news.yahoo.com/republicans-fed-cycle-misinformation-pelosi-124154018.html
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://www.yahoo.com/everything/
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://www.yahoo.com/lifestyle/emily-ratajkowski-dances-divorce-stepfather-applications-173940894.html
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://news.yahoo.com/
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://sports.yahoo.com/aaron-rodgers-throws-2-end-zone-interceptions-on-green-bays-first-2-drives-vs-lions-193804778.html
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://www.yahoo.com/plus
+13796-ERROR-Error occured while putting the values in the database
+13796-ERROR-Error in finding the data on the web page https://sports.yahoo.com/after-further-review-clemson-alabama-both-out-of-playoff-picture-and-does-anyone-play-defense-141233619.html
+13796-ERROR-Error occured while putting the values in the database
+13796-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+7728-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+7500-INFO-E:\Django\Brean\Crawler\views.py changed, reloading.
+6544-ERROR-Error occured while putting the values in the database
+6544-ERROR-Error occured while putting the values in the database
+6544-ERROR-Error occured while putting the values in the database
+9156-ERROR-Error in finding the data on the web page https://news.yahoo.com/
+13408-WARNING-Not Found: /admin
+1488-INFO-E:\Django\Brean\Brean\settings.py changed, reloading.
+14624-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'endblock'. Did you forget to register or load this tag?
+14624-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'endblock'. Did you forget to register or load this tag?
+14932-WARNING-Not Found: /favicon.ico
+8116-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock.
+12344-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock.
+12344-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock.
+12344-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock.
+13456-WARNING-Not Found: /favicon.ico
+13456-WARNING-Not Found: /favicon.ico
+13456-WARNING-Not Found: /favicon.ico
+13456-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock.
+13456-ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Django\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\Brean\Search\views.py", line 8, in Home
+    return render(request, 'home/index.html')
+  File "E:\Django\Brean\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\Django\Brean\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock.
