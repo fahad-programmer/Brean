@@ -23,6 +23,9 @@ class WebPages(models.Model):
 class Images(models.Model):
     
     #slug field
-    url = models.SlugField(unique=True)
+    url = models.CharField(unique=True, max_length=5000)
     #Alt text of image
     alt_text = models.CharField(max_length=300)
+
+    def __str__(self) -> str:
+        return  self.alt_text
