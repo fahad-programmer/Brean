@@ -1,0 +1,108 @@
+{% extends "../index.html" %} {% load static %} {% block title %} Brean Search {% endblock title %}
+{% block styles %}
+  <link rel="stylesheet" href="{% static 'css/search.css' %}">
+{% endblock styles %}
+{% block content %}
+<div class="wrapper">
+  <div class="top-section">
+    <div class="header">
+        <h1>
+            <a class="title">Brean</a>
+          </h1>
+          <form class="search-form" action="#" method="get">
+            <div class="autocomplete">
+              <input type="search" name="search" id="searchBar" autocomplete="off" spellcheck="false" placeholder="Search Here" value="FTX Drop" required />
+              <button id="searchButton"><span class="iconify" data-icon="akar-icons:search"></span></button>
+            </div>
+          </form>
+    </div>
+  </div>
+  <div class="search-section">
+    <div class="menu-search">
+        <div class="menu-buttons">
+            <button><span class="iconify" data-icon="akar-icons:search"></span> Web</button>
+            <button><span class="iconify" data-icon="material-symbols:broken-image-outline"></span> Images</button>
+            <button><span class="iconify" data-icon="material-symbols:video-library-outline"></span> Videos</button>
+            <button><span class="iconify" data-icon="fluent:news-24-regular"></span> News</button>
+        </div>
+    </div>
+    <div class="result-search">
+        <!-- Image Search -->
+        <div class="counter">
+            <span>Found 3,000,213,544 Results in 1.3s</span>
+        </div>
+        <div class="search-box-container">
+            <h2 class="box-title">Related Images</h2>
+            <div class="image-box-cotainer">
+                <a class="image-item">
+                    <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/QHUGTFL36NK4VCGQZMZ65B6YZ4.jpg" alt="">
+                    <div class="image-info">
+                        <div class="weblink"><img src="https://www.svgrepo.com/show/331399/ftx.svg" alt=""> FTX.com</div>
+                        <div class="linktitle">Ftx is dead guys</div>
+                    </div>
+                </a>
+                <a class="image-item">
+                    <img src="https://businessday.ng/wp-content/uploads/2022/06/ftx-1.png" alt="">
+                    <div class="image-info">
+                        <div class="weblink"><img src="https://www.svgrepo.com/show/331399/ftx.svg" alt=""> FTX.com</div>
+                        <div class="linktitle">Ftx is dead guys</div>
+                    </div>
+                </a>
+                <a class="image-item">
+                    <img src="https://www.aljazeera.com/wp-content/uploads/2022/11/2022-11-14T191004Z_1717005986_RC2IKX91CYFC_RTRMADP_3_FINTECH-CRYPTO-FTX-PROBE.jpg?resize=1920%2C1440" alt="">
+                    <div class="image-info">
+                        <div class="weblink"><img src="https://www.svgrepo.com/show/331399/ftx.svg" alt=""> FTX.com</div>
+                        <div class="linktitle">Ftx is dead guys</div>
+                    </div>
+                </a>
+                <a class="image-item">
+                    <img src="https://imageio.forbes.com/specials-images/imageserve/615e077a298aca27c9442450/0x0.jpg?format=jpg&crop=2097,1179,x65,y30,safe&width=1200" alt="">
+                    <div class="image-info">
+                        <div class="weblink"><img src="https://www.svgrepo.com/show/331399/ftx.svg" alt=""> FTX.com</div>
+                        <div class="linktitle">Ftx is dead guys</div>
+                    </div>
+                </a>
+                <div class="image-next">
+                    <button class="next-button"><span class="iconify" data-icon="material-symbols:chevron-right-rounded"></span></button>
+                    See More
+                </div>
+            </div>
+        </div>
+        <!-- Web Search -->
+        <div class="search-box-container">
+            <a href="#" class="weblinksearch">
+                <p><img src="https://www.svgrepo.com/show/331399/ftx.svg" alt=""> FTX.com</p>
+                <h3 class="webtitle">FTX.com - A global leader in Crypto</h3>
+            </a>
+            <p class="webdescription">FTX Crypto Exchange, built by traders, for everyone. Buy and sell BTC, ETH, USDT, FTT and other popular products with low fees.</p>
+            <ul class="keysitems">
+                <li><a href="#">FTX Drop</a></li>
+                <li><a href="#">Sam</a></li>
+                <li><a href="#">Bitcon</a></li>
+            </ul>
+        </div>
+        <!-- Pagination -->
+        <div class="pagination-item">
+            <button class="pageingation-button"><span class="iconify" data-icon="material-symbols:keyboard-double-arrow-left-rounded"></span></button>
+            <button class="pageingation-button"><span class="iconify" data-icon="material-symbols:chevron-left-rounded"></span></button>
+            <!-- List buttons -->
+            <button class="pageingation-button">1</button>
+            <button class="pageingation-button">2</button>
+            <button class="pageingation-button">3</button>
+            <!-- Ends Here -->
+            <button class="pageingation-button"><span class="iconify" data-icon="material-symbols:chevron-right-rounded"></span></button>
+            <button class="pageingation-button"><span class="iconify" data-icon="material-symbols:keyboard-double-arrow-right-rounded"></span></button>
+        </div>
+    </div>
+    <div class="infobox-search"></div>
+  </div>
+</div>
+{% endblock content %}
+{% block script %}
+<script src="{% static 'js/home-autocomplete.js' %}" ></script>
+<script>
+  let autoComplete = ["Google", "Adsese", "Behance", "araba", "abii", "ahio", "aqwww", "bone", "bone marron"];
+
+  autocomplete(document.getElementById("searchBar"), autoComplete, document.getElementById("searchButton"))
+  </script>
+{% endblock %}

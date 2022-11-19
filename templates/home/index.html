@@ -1,8 +1,59 @@
-{% extends "../index.html" %} {% block title %} Brean {% endblock title %} {% block content %}
+{% extends "../index.html" %} {% load static %} {% block title %} Brean {% endblock title %}
+{% block styles %}
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock styles %}
+{% block content %}
 <div class="wrapper">
-  <h1>Brean</h1>
-  <form action="#" method="get">
-    <input type="search" name="search" id="searchBar" />
-  </form>
+  <div class="left-section">
+    <h1>
+      <a class="title">Brean</a>
+    </h1>
+    <form class="search-form" action="#" method="get">
+      <div class="autocomplete">
+        <input type="search" name="search" id="searchBar" autocomplete="off" spellcheck="false" placeholder="Search Here"  autofocus required />
+        <button id="searchButton"><span class="iconify" data-icon="akar-icons:search"></span></button>
+      </div>
+    </form>
+  </div>
+  <div class="right-section">
+    <h2 class="section-title">Trending</h2>
+    <div>
+      <ol class="section-list">
+        <li class="trend-item"><a href="#">FTX crash</a></li>
+        <li class="trend-item"><a href="#">Dunkin Donut</a></li>
+        <li class="trend-item"><a href="#">GOT</a></li>
+        <li class="trend-item"><a href="#">Fifa 2022</a></li>
+        <li class="trend-item"><a href="#">LOL</a></li>
+        <li class="trend-item"><a href="#">Gemani Stone</a></li>
+        <li class="trend-item"><a href="#">Artemis Mission</a></li>
+        <li class="trend-item"><a href="#">GG Dungeons</a></li>
+        <li class="trend-item"><a href="#">Airforce crash</a></li>
+        <li class="trend-item"><a href="#">Sea Weeds</a></li>
+        <li class="trend-item"><a href="#">FTX crash</a></li>
+        <li class="trend-item"><a href="#">Dunkin Donut</a></li>
+        <li class="trend-item"><a href="#">GOT</a></li>
+        <li class="trend-item"><a href="#">Fifa 2022</a></li>
+        <li class="trend-item"><a href="#">LOL</a></li>
+        <li class="trend-item"><a href="#">Gemani Stone</a></li>
+        <li class="trend-item"><a href="#">Artemis Mission</a></li>
+        <li class="trend-item"><a href="#">GG Dungeons</a></li>
+        <li class="trend-item"><a href="#">Airforce crash</a></li>
+        <li class="trend-item"><a href="#">Sea Weeds</a></li>
+        <li class="trend-item"><a href="#">FTX crash</a></li>
+        <li class="trend-item"><a href="#">Dunkin Donut</a></li>
+        <li class="trend-item"><a href="#">GOT</a></li>
+        <li class="trend-item"><a href="#">Fifa 2022</a></li>
+        <li class="trend-item"><a href="#">LOL</a></li>
+      </ol>
+    </div>
+  </div>
 </div>
 {% endblock content %}
+{% block script %}
+<script src="{% static 'js/home-autocomplete.js' %}" ></script>
+<script>
+  let autoComplete = ["Google", "Adsese", "Behance", "araba", "abii", "ahio", "aqwww", "bone", "bone marron"];
+
+  autocomplete(document.getElementById("searchBar"), autoComplete, document.getElementById("searchButton"))
+  </script>
+{% endblock %}

@@ -31,7 +31,7 @@ class Viper(ListView):
         Getting the data from the page that is required
             1 -> Title
             2 - > Meta Desciption
-            3 - > Keywords
+            3 - > keywords
         """
 
         global soup
