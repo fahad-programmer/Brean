@@ -2912,3 +2912,222 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.coinglass.com
 5384-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
 3748-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
 6024-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+4548-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 288, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: <!DOCTYPE html>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 288, in _read_status
+    raise BadStatusLine(line)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', BadStatusLine('<!DOCTYPE html>\r\n'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 25, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 92, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 29, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', BadStatusLine('<!DOCTYPE html>\r\n'))
+4548-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+7216-ERROR-Error in finding the data on the web page https://www.cnbc.com/video/2021/11/10/were-the-underlying-tool-set-for-creating-the-metaverse-unity-ceo-says.html/markets-europe/
+7216-ERROR-Error occured while putting the values in the database
+7216-ERROR-Error in finding the data on the web page https://www.cnbc.com/video/2021/11/10/were-the-underlying-tool-set-for-creating-the-metaverse-unity-ceo-says.html//www.cnbc.com/world/
+7216-ERROR-Error occured while putting the values in the database
+7216-ERROR-Error in finding the data on the web page https://www.cnbc.com/video/2021/11/10/were-the-underlying-tool-set-for-creating-the-metaverse-unity-ceo-says.html/trader-talk/
+7216-ERROR-Error occured while putting the values in the database
+7216-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connection.py", line 424, in connect
+    tls_in_tls=tls_in_tls,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='abcnews.go.com', port=443): Max retries exceeded with url: /GMA/video/exclusive-apple-ceo-tim-cook-prefers-augmented-reality-42068573 (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 25, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 92, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 29, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='abcnews.go.com', port=443): Max retries exceeded with url: /GMA/video/exclusive-apple-ceo-tim-cook-prefers-augmented-reality-42068573 (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)')))
+12744-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+7216-INFO-E:\Side Projects\Brean\Crawler\views.py changed, reloading.
+6924-ERROR-Internal Server Error: /crawler/viper
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Side Projects\Brean\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\AC\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\django\views\generic\base.py", line 63, in view
+    self = cls(**initkwargs)
+  File "E:\Side Projects\Brean\Crawler\views.py", line 25, in __init__
+    self.engine()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 92, in engine
+    self.parser()
+  File "E:\Side Projects\Brean\Crawler\views.py", line 29, in parser
+    page = requests.get(self.current_url)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Side Projects\Brean\venv\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))

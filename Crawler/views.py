@@ -2,7 +2,7 @@ import random
 from django.shortcuts import render
 from bs4 import BeautifulSoup
 import requests
-from .models import WebPages
+from .models import WebPages, Images
 from django.views.generic import ListView
 import logging
 
@@ -17,7 +17,8 @@ class Viper(ListView):
 
     #Header for the request module to keep us from blocking from the sites
 
-    current_url = 'https://archive.org/web/'
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'}
+    current_url = 'https://www.nytimes.com/international/'
     
     waiting_urls = []
 
@@ -25,8 +26,16 @@ class Viper(ListView):
         self.engine()
 
     def parser(self) -> None:
+
+        """
+        Getting the data from the page that is required
+            1 -> Title
+            2 - > Meta Desciption
+            3 - > Keywords
+        """
+
         global soup
-        page = requests.get(self.current_url)
+        page = requests.get(self.current_url, headers=self.headers)
         soup = BeautifulSoup(page.content, "lxml")
 
         #Now getting the desired thing from the page
@@ -51,8 +60,6 @@ class Viper(ListView):
             else:
                 keyword = keyword["content"]
             
-           
-
         except Exception as e:
             logging.error(f"Error in finding the data on the web page {self.current_url}")
 
@@ -75,8 +82,6 @@ class Viper(ListView):
                     self.waiting_urls.append(f"{self.current_url}{link.get('href')}")
         except Exception as e:
             pass      
-
-
         
     def queue_manager(self) -> None:
         #changing the current url
@@ -99,9 +104,21 @@ class Viper(ListView):
 
 
 
+class ViperImage(ListView):
+    #Header for the request module to keep us from blocking from the sites
 
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'}
+    current_url = 'https://www.nytimes.com/international/'
+    
+    waiting_urls = []
 
+    def __init__(self) -> None:
+        self.engine()
 
+    def parser(self) -> None:
+        """Getting the image from the page"""
+        global soup
+        page = requests.get(self.current_url, headers=self.headers)
 
-
+        #Now getting the desired thing from the page
 
